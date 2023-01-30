@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto+Mono"
+     />
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous" defer></script>
+    <script src="main.js" defer></script>
+
+
+
+
+
+    <div class="navbar" style="background-color: #e63946;">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="quiz.html" style="color: #f1faee; font-size: 30px; margin-right: 25px; font-weight: 900;">Quiz <span class="sr-only"></span></a>
+        </li>
+
+
+        <li class="nav-item dropdown">
+          <a  class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #f1faee; font-size: 30px; margin-right: 25px;">
+            Other Pages
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: #f1faee; font-size: 40px; ">
+            <a class="dropdown-item" style="font-size: 30px;" href="index.html">About Arduinos</a>
+            <a class="dropdown-item" style="font-size: 30px;" href="Microcontroller.html">About Microcontrollers</a>
+            <a class="dropdown-item" style="font-size: 30px;" href="RPi.html">About Raspberry Pi</a>
+          </div>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+</div>
+
+
+<div class="card-deck">
+
+
+    <div class="card" style="width: 18rem; margin-left: 20px; margin-bottom: 20px; margin-top: 20px; margin-right: 20px; background-color: #a8dadc; color: black;">
+        <div class="card-body">
+          <h5 class="card-title, d-flex justify-content-center text-center" style="font-size: 40px; font-weight: 900;">Quiz: What Arduino is Best for you</h5>
+
+        </div>
+    </div>
+
+
+</div>
+
+
+<div class="card-deck">
+
+
+
+<div class="card" style="width: 18rem; margin-left: 20px; margin-bottom: 20px; margin-top: 20px; margin-right: 20px;">
+    <div class="card-body">
+      <h5 class="card-title" style="font-weight: bolder;">What size(s) do you prefer?</h5>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="ArduinoMega1">
+        <label class="form-check-label" for="ArduinoMega1" style="font-size:large;">
+          Large
+        </label>
+      </div>
+
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="ArduinoUno1">
+        <label class="form-check-label" for="ArduinoUno1" style="font-size:large;">
+          Average
+        </label>
+      </div>
+
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="ArduinoJenny1">
+        <label class="form-check-label" for="ArduinoJenny1" style="font-size:large;">
+        Below Average
+        </label>
+      </div>
+
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="ArduinoNano1">
+        <label class="form-check-label" for="ArduinoNano1" style="font-size:large;">
+          Small
+        </label>
+      </div>
+
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="ArduinoProMicro1">
+        <label class="form-check-label" for="ArduinoProMicro1" style="font-size:large;">
+          Micro
+        </label>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <div class="card" style="width: 18rem; margin-left: 20px; margin-bottom: 20px; margin-top: 20px; margin-right: 20px;">
+    <div class="card-body">
+      <h5 class="card-title"style="font-weight: bolder;">How much power do you need?</h5>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="ArduinoMega2">
+        <label class="form-check-label" for="ArduinoMega2" style="font-size:large;">
+          A lot
+        </label>
+      </div>
+
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="ArduinoJenny2">
+        <label class="form-check-label" for="ArduinoJenny2" style="font-size:large;">
+          A Little More than Normal
+        </label>
+      </div>
+
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="ArduinoUno2">
+        <label class="form-check-label" for="ArduinoUno2" style="font-size:large;">
+          A Normal Amount
+        </label>
+      </div>
+
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="ArduinoNano2">
+        <label class="form-check-label" for="ArduinoNano2" style="font-size:large;">
+          Not A lot
+        </label>
+      </div>
+
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="ArduinoProMicro2">
+        <label class="form-check-label" for="ArduinoProMicro2"style="font-size:large;">
+          Super Not Alot
+        </label>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <div class="card" style="width: 18rem; margin-left: 20px; margin-bottom: 20px; margin-top: 20px; margin-right: 20px;">
+    <div class="card-body">
+      <h5 class="card-title"style="font-weight: bolder;">Which Arduinos have you heard of?</h5>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="ArduinoUno3">
+        <label class="form-check-label" for="ArduinoUno3" style="font-size:large;">
+            Arduino Uno
+        </label>
+      </div>
+
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="ArduinoNano3">
+        <label class="form-check-label" for="ArduinoNano3" style="font-size:large;">
+            Arduino Nano
+        </label>
+      </div>
+
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="ArduinoMega3">
+        <label class="form-check-label" for="ArduinoMega3" style="font-size:large;">
+            Arduino Mega
+        </label>
+      </div>
+
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="ArduinoProMicro3">
+        <label class="form-check-label" for="ArduinoProMicro3" style="font-size:large;">
+            Arduino Pro Micro
+        </label>
+      </div>
+
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="ArduinoJenny3">
+        <label class="form-check-label" for="ArduinoJenny3" style="font-size:large;" >
+            RGBDuino Jenny
+        </label>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="card" style="width: 18rem; margin-left: 20px; margin-bottom: 20px; margin-top: 20px; margin-right: 20px;">
+    <div class="card-body">
+      <h5 class="card-title"style="font-weight: bolder;">You care about following tutorials exactly</h5>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="ArduinoUno4">
+        <label class="form-check-label" for="ArduinoUno4" style="font-size:large;">
+          Strongly Agree
+        </label>
+      </div>
+
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="ArduinoNano4">
+        <label class="form-check-label" for="ArduinoNano4" style="font-size:large;">
+          Somewhat Agree
+        </label>
+      </div>
+
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="ArduinoJenny4">
+        <label class="form-check-label" for="ArduinoJenny4" style="font-size:large;">
+          Neutral
+        </label>
+      </div>
+
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="ArduinoMega4">
+        <label class="form-check-label" for="ArduinoMega4" style="font-size:large;">
+          Disagree
+        </label>
+      </div>
+
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="ArduinoProMicro4">
+        <label class="form-check-label" for="ArduinoProMicro4" style="font-size:large;">
+          Strongly Disagree
+        </label>
+      </div>
+    </div>
+  </div>
+
+
+
+  
+
+
+  <div class="card" style="width: 18rem; margin-left: 20px; margin-bottom: 20px; margin-top: 20px; margin-right: 20px;">
+    <div class="card-body">
+      <h5 class="card-title"style="font-weight: bolder;">How much does aesthetics matter?</h5>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="ArduinoJenny5">
+        <label class="form-check-label" for="ArduinoJenny5"style="font-size:large;">
+          A lot
+        </label>
+      </div>
+
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="ArduinoUno5">
+        <label class="form-check-label" for="ArduinoUno5" style="font-size:large;">
+          Somewhat
+        </label>
+      </div>
+
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="ArduinoMega5">
+        <label class="form-check-label" for="ArduinoMega5" style="font-size:large;">
+          I do not Care
+        </label>
+      </div>
+
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="ArduinoNano5">
+        <label class="form-check-label" for="ArduinoNano5" style="font-size:large;">
+          Not Much
+        </label>
+      </div>
+
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="ArduinoProMicro5">
+        <label class="form-check-label" for="ArduinoProMicro5"style="font-size:large;">
+          Not at All
+        </label>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="card-deck">
+
+    <div class="card" style="width: 18rem; background-color: #457b9d;">
+        <div class="card-body">
+
+        <a id="resultButton" href="#" class="d-flex justify-content-center text-center, btn btn-primary" style="background-color: #f1faee; color:black; font-weight: bold; font-size: larger;">Click Here for Results</a>
+
+          <p class="d-flex justify-content-center text-center" style="color: #f1faee; font-weight: bold; font-size: larger;" id="resulttext"> </p>
+          
+        </div>
+      </div>
+
+</div>
+
+
+  </body>
+</html>
